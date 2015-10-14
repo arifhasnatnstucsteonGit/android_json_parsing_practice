@@ -1,29 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:orientation="vertical"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:padding="10dp"
-    android:background="#0057ff">
+    android:background="#d6e2ff"
+    >
   <!-- Name Label -->
-  <TextView android:id="@+id/name_label"
+<!--  <TextView android:id="@+id/name_label"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textSize="25dip"
+            android:text="one"
             android:textStyle="bold"
             android:paddingTop="10dip"
             android:paddingBottom="10dip"
-            android:textColor="#43bd00"/>
-  <!-- Email Label -->
+            android:textColor="#43bd00"
+      android:layout_above="@+id/email_label"
+      android:layout_alignParentLeft="true" />
+  &lt;!&ndash; Email Label &ndash;&gt;
   <TextView android:id="@+id/email_label"
             android:layout_width="fill_parent"
+            android:text="two"
             android:layout_height="wrap_content"
-            android:textColor="#acacac"/>
-  <!-- Mobile Label -->
+            android:textColor="#acacac"
+      android:layout_above="@+id/mobile_label"
+      android:layout_marginBottom="68dp"
+      android:layout_alignParentLeft="true" />
+  &lt;!&ndash; Mobile Label &ndash;&gt;
   <TextView android:id="@+id/mobile_label"
       		android:layout_width="fill_parent"
-      		android:layout_height="wrap_content"
-      		android:textStyle="bold"/>
+            android:text="three"
 
-</LinearLayout>
+      		android:layout_height="wrap_content"
+      		android:textStyle="bold"
+      android:layout_centerVertical="true"
+      android:layout_alignParentLeft="true"
+      android:layout_marginLeft="43dp" />-->
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send SMS to donar"
+        android:onClick="SMStoDonar"
+        android:id="@+id/buttonSMSFromSingleContactActivity"
+        android:layout_above="@+id/buttonCallFromSingleContacActivtivity"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call to Donar"
+        android:onClick="CallToDonar"
+        android:id="@+id/buttonCallFromSingleContacActivtivity"
+        android:layout_above="@+id/buttonSMStoPaient"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textViewName"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#ff0c31"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:gravity="center"
+
+        android:id="@+id/textViewEmail"
+        android:layout_below="@+id/textViewName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#ff7e6f"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:gravity="center"
+        android:id="@+id/textViewPhone"
+        android:layout_below="@+id/textViewEmail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#ff929a"
+        android:textSize="25dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS to Patient"
+        android:onClick="smstopatient"
+        android:id="@+id/buttonSMStoPaient"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

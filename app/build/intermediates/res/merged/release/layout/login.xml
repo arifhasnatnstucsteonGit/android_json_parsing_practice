@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editTextEmailFromLoginPage"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Email"
+        android:layout_marginTop="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Password"
+        android:textColor="#008800"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/editTextpasswordFromLoginPage"
+        android:layout_below="@+id/editTextEmailFromLoginPage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:onClick="logintoPanel"
+
+        android:id="@+id/buttonLoginFromLoginPage"
+        android:layout_below="@+id/editTextpasswordFromLoginPage"
+        android:layout_alignRight="@+id/editTextpasswordFromLoginPage"
+        android:layout_alignLeft="@+id/editTextpasswordFromLoginPage"
+        android:background="#4552ff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Register"
+        android:id="@+id/textViewRegisterFromLoginpage"
+        android:layout_below="@+id/buttonLoginFromLoginPage"
+        android:layout_alignRight="@+id/buttonLoginFromLoginPage"
+        android:layout_marginTop="34dp"
+        android:textColor="#1e36ff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Yet Not Register ? Please "
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/textViewRegisterFromLoginpage"
+        android:layout_toLeftOf="@+id/textViewRegisterFromLoginpage" />
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="#00c9ff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView2"
+        android:background="#1a99ff"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:text="Login page" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView3"
+        android:background="#1a99ff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/blood"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp" />
+</RelativeLayout>
+<!-- From: file:/E:/android/AndroidJSONParsing1/app/src/main/res/layout/login.xml -->

@@ -128,7 +128,7 @@ public class MainActivity extends ListActivity {
 					// looping through All Contacts
 					for (int i = 0; i < contacts.length(); i++) {
 						JSONObject c = contacts.getJSONObject(i);
-						
+
 						String id = c.getString(TAG_ID);
 						String name = c.getString(TAG_NAME);
 						String email = c.getString(TAG_EMAIL);
@@ -178,6 +178,9 @@ public class MainActivity extends ListActivity {
 					R.layout.list_item, new String[] { TAG_NAME, TAG_EMAIL,
 							TAG_PHONE_MOBILE }, new int[] { R.id.name,
 							R.id.email, R.id.mobile });
+
+
+
 
 			setListAdapter(adapter);
 		}
