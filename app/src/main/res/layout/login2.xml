@@ -13,7 +13,7 @@
         android:gravity="center"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:hint="Email"
+        android:hint="Name"
         android:layout_marginTop="140dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
@@ -51,6 +51,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Register"
+        android:onClick="registrationClickFromLoginpage"
         android:id="@+id/textViewRegisterFromLoginpage"
         android:layout_below="@+id/buttonLoginFromLoginPage"
         android:layout_alignRight="@+id/buttonLoginFromLoginPage"
@@ -100,7 +101,5 @@
         android:id="@+id/imageView"
         android:src="@drawable/blood"
         android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="91dp" />
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
-<!-- From: file:/E:/android/AndroidJSONParsing1/app/src/main/res/layout/login.xml -->

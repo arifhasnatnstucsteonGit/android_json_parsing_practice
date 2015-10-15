@@ -10,39 +10,84 @@ package info.androidhive.jsonparsing;
 public final class R {
     public static final class attr {
     }
+    public static final class dimen {
+        public static final int activity_horizontal_margin=0x7f040000;
+        public static final int activity_vertical_margin=0x7f040001;
+    }
     public static final class drawable {
-        public static final int blood=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
+        public static final int bb_img=0x7f020000;
+        public static final int blood=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int splash=0x7f020003;
+        public static final int userpanel=0x7f020004;
     }
     public static final class id {
-        public static final int buttonCallFromSingleContacActivtivity=0x7f050001;
-        public static final int buttonLoginFromLoginPage=0x7f05000b;
-        public static final int buttonSMSFromSingleContactActivity=0x7f050000;
-        public static final int buttonSMStoPaient=0x7f050002;
-        public static final int calendarView=0x7f050011;
-        public static final int editTextEmailFromLoginPage=0x7f050009;
-        public static final int editTextpasswordFromLoginPage=0x7f05000a;
-        public static final int email=0x7f050007;
-        public static final int imageView=0x7f050010;
-        public static final int mobile=0x7f050008;
-        public static final int name=0x7f050006;
-        public static final int textView=0x7f05000d;
-        public static final int textView2=0x7f05000e;
-        public static final int textView3=0x7f05000f;
-        public static final int textViewEmail=0x7f050004;
-        public static final int textViewName=0x7f050003;
-        public static final int textViewPhone=0x7f050005;
-        public static final int textViewRegisterFromLoginpage=0x7f05000c;
+        public static final int action_settings=0x7f07002b;
+        public static final int buttonAllBloodBankListFromuserPanelPage=0x7f070029;
+        public static final int buttonBloodBankFromMainScreen=0x7f070000;
+        public static final int buttonCallFromSingleContacActivtivity=0x7f070004;
+        public static final int buttonCommonBloodBankFromMainScreen=0x7f070001;
+        public static final int buttonDonarListFromuserpanelpage=0x7f070027;
+        public static final int buttonLoginFromLoginPage=0x7f07000e;
+        public static final int buttonNearbyHospitalFromMainScreen=0x7f070002;
+        public static final int buttonNearbyHospitalFromuserpanelpage=0x7f070028;
+        public static final int buttonRegistrationFromRegisterPage=0x7f07001d;
+        public static final int buttonSMSFromSingleContactActivity=0x7f070003;
+        public static final int buttonSMStoPaient=0x7f070005;
+        public static final int calendarView=0x7f070023;
+        public static final int editTextAgeFormRegisterPage=0x7f070016;
+        public static final int editTextDistrictFormRegisterPage=0x7f070019;
+        public static final int editTextEmailFormRegisterPage=0x7f070015;
+        public static final int editTextNameFormRegisterPage=0x7f07001e;
+        public static final int editTextPasswordFormRegisterPage=0x7f07001a;
+        public static final int editTextPhoneFormRegisterPage=0x7f070014;
+        public static final int editTextRePasswordFormRegisterPage=0x7f07001b;
+        public static final int editTextUpzillaFormRegisterPage=0x7f07001c;
+        public static final int editTextUsernameFromLoginPage=0x7f07000c;
+        public static final int editTextWeightFormRegisterPage=0x7f070017;
+        public static final int editTextheightFormRegisterPage=0x7f070018;
+        public static final int editTextpasswordFromLoginPage=0x7f07000d;
+        public static final int email=0x7f07000a;
+        public static final int imageButtonlogoutFromLogOutpage=0x7f070026;
+        public static final int imageView=0x7f070013;
+        public static final int mobile=0x7f07000b;
+        public static final int name=0x7f070009;
+        public static final int textView=0x7f070010;
+        public static final int textView2=0x7f070011;
+        public static final int textView3=0x7f070012;
+        public static final int textView4=0x7f07001f;
+        public static final int textView5=0x7f070020;
+        public static final int textView6=0x7f070021;
+        public static final int textView8=0x7f070025;
+        public static final int textViewEmail=0x7f070007;
+        public static final int textViewLoginFromRegisterPage=0x7f070022;
+        public static final int textViewName=0x7f070006;
+        public static final int textViewNameFromUserpanelPage=0x7f070024;
+        public static final int textViewPhone=0x7f070008;
+        public static final int textViewRegisterFromLoginpage=0x7f07000f;
+        public static final int textViewViewYourProfileFormUserpanel=0x7f07002a;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int activity_single_contact=0x7f030001;
-        public static final int list_item=0x7f030002;
-        public static final int login=0x7f030003;
-        public static final int panel=0x7f030004;
+        public static final int activity_main_screen=0x7f030001;
+        public static final int activity_single_contact=0x7f030002;
+        public static final int list_item=0x7f030003;
+        public static final int login=0x7f030004;
+        public static final int login2=0x7f030005;
+        public static final int main_activity_screen=0x7f030006;
+        public static final int panel=0x7f030007;
+        public static final int registration_screen=0x7f030008;
+        public static final int user_panel=0x7f030009;
+    }
+    public static final class menu {
+        public static final int menu_main=0x7f060000;
     }
     public static final class string {
-        public static final int app_name=0x7f040000;
-        public static final int hello=0x7f040001;
+        public static final int action_settings=0x7f050000;
+        public static final int app_name=0x7f050001;
+        public static final int hello=0x7f050002;
+        public static final int hello_world=0x7f050003;
+        public static final int title_activity_main_screen=0x7f050004;
+        public static final int title_activity_splash_screen=0x7f050005;
     }
 }

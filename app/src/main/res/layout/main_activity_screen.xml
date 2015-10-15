@@ -1,116 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_width="match_parent" android:layout_height="match_parent">
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/editTextPhoneFormRegisterPage"
         android:layout_marginTop="82dp"
         android:hint="Phone"
         android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/editText2"
-        android:layout_alignRight="@+id/editText2" />
+        android:layout_alignLeft="@+id/editTextEmailFormRegisterPage"
+        android:layout_alignRight="@+id/editTextEmailFormRegisterPage" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/editText2"
-        android:layout_below="@+id/editText"
+        android:id="@+id/editTextEmailFormRegisterPage"
+        android:layout_below="@+id/editTextPhoneFormRegisterPage"
         android:hint="Email"
-        android:layout_alignLeft="@+id/editText3"
-        android:layout_alignRight="@+id/editText9" />
+        android:layout_alignLeft="@+id/editTextAgeFormRegisterPage"
+        android:layout_alignRight="@+id/editTextWeightFormRegisterPage" />
 
     <EditText
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/editText3"
-        android:layout_below="@+id/editText2"
+        android:id="@+id/editTextAgeFormRegisterPage"
+        android:layout_below="@+id/editTextEmailFormRegisterPage"
         android:hint="age"
-        android:layout_alignLeft="@+id/editText4" />
+        android:layout_alignLeft="@+id/editTextheightFormRegisterPage" />
 
     <EditText
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/editText4"
-        android:layout_below="@+id/editText3"
+        android:id="@+id/editTextheightFormRegisterPage"
+        android:layout_below="@+id/editTextAgeFormRegisterPage"
         android:hint="Height"
-        android:layout_alignLeft="@+id/editText5" />
+        android:layout_alignLeft="@+id/editTextDistrictFormRegisterPage" />
 
     <EditText
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/editText5"
-        android:layout_below="@+id/editText4"
+        android:id="@+id/editTextDistrictFormRegisterPage"
+        android:layout_below="@+id/editTextheightFormRegisterPage"
         android:hint="District"
-        android:layout_alignLeft="@+id/editText6" />
+        android:layout_alignLeft="@+id/editTextPasswordFormRegisterPage" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/editText6"
-        android:layout_below="@+id/editText5"
+        android:id="@+id/editTextPasswordFormRegisterPage"
+        android:layout_below="@+id/editTextDistrictFormRegisterPage"
         android:hint="Password"
-        android:layout_alignLeft="@+id/editText8"
-        android:layout_alignRight="@+id/editText8" />
+        android:layout_alignLeft="@+id/editTextRePasswordFormRegisterPage"
+        android:layout_alignRight="@+id/editTextRePasswordFormRegisterPage" />
 
     <EditText
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/editText7"
+        android:id="@+id/editTextUpzillaFormRegisterPage"
         android:hint="Upzilla"
-        android:layout_below="@+id/editText4"
-        android:layout_toRightOf="@+id/editText4"
-        android:layout_alignRight="@+id/editText6" />
+        android:layout_below="@+id/editTextheightFormRegisterPage"
+        android:layout_toRightOf="@+id/editTextheightFormRegisterPage"
+        android:layout_alignRight="@+id/editTextPasswordFormRegisterPage" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/editText8"
-        android:layout_below="@+id/editText6"
+        android:id="@+id/editTextRePasswordFormRegisterPage"
+        android:layout_below="@+id/editTextPasswordFormRegisterPage"
         android:hint="Re Enter Password"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignRight="@+id/button2" />
+        android:layout_alignLeft="@+id/buttonRegistrationFromRegisterPage"
+        android:layout_alignRight="@+id/buttonRegistrationFromRegisterPage" />
 
     <EditText
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/editText9"
+        android:id="@+id/editTextWeightFormRegisterPage"
         android:hint="Weight"
-        android:layout_below="@+id/editText2"
-        android:layout_alignLeft="@+id/editText7"
-        android:layout_alignRight="@+id/editText7" />
+        android:layout_below="@+id/editTextEmailFormRegisterPage"
+        android:layout_alignLeft="@+id/editTextUpzillaFormRegisterPage"
+        android:layout_alignRight="@+id/editTextUpzillaFormRegisterPage" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/editText10"
-        android:layout_alignBottom="@+id/editText"
+        android:id="@+id/editTextNameFormRegisterPage"
+        android:layout_alignBottom="@+id/editTextPhoneFormRegisterPage"
         android:layout_marginBottom="29dp"
         android:hint="Name"
-        android:layout_alignLeft="@+id/editText"
-        android:layout_alignRight="@+id/editText" />
+        android:layout_alignLeft="@+id/editTextPhoneFormRegisterPage"
+        android:layout_alignRight="@+id/editTextPhoneFormRegisterPage" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -120,7 +118,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentLeft="true"
-        android:foreground="ff"
+
         android:background="#4adfff" />
 
     <TextView
@@ -137,8 +135,8 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:layout_below="@+id/editText8"
+        android:id="@+id/buttonRegistrationFromRegisterPage"
+        android:layout_below="@+id/editTextRePasswordFormRegisterPage"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
         android:hint="Register"
@@ -147,4 +145,25 @@
         android:layout_alignParentRight="true"
         android:text="Registrater"
         android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Registered? "
+        android:id="@+id/textView6"
+        android:layout_below="@+id/buttonRegistrationFromRegisterPage"
+        android:layout_alignRight="@+id/editTextDistrictFormRegisterPage"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Login"
+        android:id="@+id/textViewLoginFromRegisterPage"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_toRightOf="@+id/textView6"
+        android:textColor="#ff1814" />
+
+
 </RelativeLayout>

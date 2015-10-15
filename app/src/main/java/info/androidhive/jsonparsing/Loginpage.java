@@ -62,7 +62,7 @@ public class Loginpage extends ListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
         // login page ui ----------------
-        editText_email= (EditText) findViewById(R.id.editTextEmailFromLoginPage);
+        editText_email= (EditText) findViewById(R.id.editTextUsernameFromLoginPage);
         editText_password= (EditText) findViewById(R.id.editTextpasswordFromLoginPage);
         button_login= (Button) findViewById(R.id.buttonLoginFromLoginPage);
 

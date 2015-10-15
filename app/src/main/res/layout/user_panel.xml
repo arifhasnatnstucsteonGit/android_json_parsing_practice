@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Name"
+        android:id="@+id/textViewNameFromUserpanelPage"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Wellcome !! Mr ."
+        android:id="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonlogoutFromLogOutpage"
+        android:src="@drawable/userpanel"
+        android:onClick="logoutOnClick"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donar List"
+        android:onClick="DonarListOnClick"
+        android:id="@+id/buttonDonarListFromuserpanelpage"
+        android:layout_below="@+id/imageButtonlogoutFromLogOutpage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="138dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nearby Hospital"
+        android:onClick="NearbyHospitalOnClick"
+        android:id="@+id/buttonNearbyHospitalFromuserpanelpage"
+        android:layout_below="@+id/buttonDonarListFromuserpanelpage"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All Blood Bank Info"
+        android:onClick="AllBloodBankInfoOnClick"
+        android:id="@+id/buttonAllBloodBankListFromuserPanelPage"
+        android:layout_below="@+id/buttonNearbyHospitalFromuserpanelpage"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="View Your Profile"
+        android:onClick="ViewYourProfileOnClick"
+        android:id="@+id/textViewViewYourProfileFormUserpanel"
+        android:layout_below="@+id/imageButtonlogoutFromLogOutpage"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

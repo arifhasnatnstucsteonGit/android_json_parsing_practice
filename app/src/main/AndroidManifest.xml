@@ -49,10 +49,6 @@
         <activity android:name=".Panel" />
         <activity android:name=".MainActivity" />
         <activity
-            android:name=".Splash_screen"
-            android:label="@string/title_activity_splash_screen" >
-        </activity>
-        <activity
             android:name=".MainScreen"
             android:label="@string/title_activity_main_screen" >
         </activity>

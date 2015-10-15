@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:2:1-47:12
+ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:2:1-57:12
 	package
 		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml
@@ -28,50 +28,68 @@ ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:12:5-
 	android:name
 		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.SEND_SMS
-ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:13:5-83
+ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:13:5-67
 	android:name
 		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:13:22-64
 uses-permission#android.permission.READ_SMS
-ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:14:5-83
+ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:14:5-67
 	android:name
 		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:14:22-64
 uses-permission#android.permission.CALL_PHONE
-ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:16:5-85
+ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:16:5-69
 	android:name
 		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:16:22-66
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:18:5-89
+	android:name
+		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:18:30-86
+android:uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:19:5-83
+	android:name
+		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:19:30-80
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:20:5-88
+	android:name
+		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:20:30-85
 application
-ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:18:5-45:19
+ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:22:5-55:19
 	android:label
-		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:20:9-41
+		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:24:9-41
 	android:icon
-		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:19:9-45
+		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:23:9-39
 activity#info.androidhive.jsonparsing.Loginpage
-ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:21:9-29:20
+ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:25:9-33:20
 	android:label
-		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:22:13-45
+		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:27:13-45
 	android:name
-		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:23:13-66
+		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:26:13-38
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:24:13-28:29
+ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:31:27-74
 activity#info.androidhive.jsonparsing.SingleContactActivity
-ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:32:9-35:20
+ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:36:9-39:20
 	android:label
-		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:33:13-36
+		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:38:13-36
 	android:name
-		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:34:13-78
+		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:37:13-50
 activity#info.androidhive.jsonparsing.Panel
-ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:43:9-52
+ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:49:9-43
 	android:name
-		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:43:19-40
+		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:49:19-40
 activity#info.androidhive.jsonparsing.MainActivity
-ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:44:9-59
+ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:50:9-50
 	android:name
-		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:44:19-47
+		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:50:19-47
+activity#info.androidhive.jsonparsing.MainScreen
+ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:51:9-54:20
+	android:label
+		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:53:13-63
+	android:name
+		ADDED from E:\android\AndroidJSONParsing1\app\src\main\AndroidManifest.xml:52:13-39

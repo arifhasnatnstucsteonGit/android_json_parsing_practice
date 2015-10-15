@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:ems="10"
-        android:id="@+id/editTextEmailFromLoginPage"
+        android:id="@+id/editTextUsernameFromLoginPage"
         android:layout_weight="1"
         android:gravity="center"
         android:layout_marginLeft="10dp"
@@ -30,7 +30,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:id="@+id/editTextpasswordFromLoginPage"
-        android:layout_below="@+id/editTextEmailFromLoginPage"
+        android:layout_below="@+id/editTextUsernameFromLoginPage"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true" />
 

@@ -141,7 +141,6 @@
         android:layout_marginLeft="10dp"
         android:hint="Register"
         android:background="#447dff"
-        android:onClick="RegistrationClick"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:text="Registrater"
@@ -161,7 +160,6 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Login"
-
         android:id="@+id/textViewLoginFromRegisterPage"
         android:layout_alignBottom="@+id/textView6"
         android:layout_toRightOf="@+id/textView6"
@@ -169,3 +167,4 @@
 
 
 </RelativeLayout>
+<!-- From: file:/E:/android/AndroidJSONParsing1/app/src/main/res/layout/main_activity_screen.xml -->
